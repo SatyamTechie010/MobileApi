@@ -1,0 +1,18 @@
+{
+  "info": {
+    "name": "Mobile Dataset API",
+    "description": "Postman collection for testing Mobile Dataset API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {"name":"Home Route","request":{"method":"GET","url":"http://localhost:5000/"}},
+    {"name":"Fetch All Mobiles","request":{"method":"GET","url":"http://localhost:5000/api/mobiles"}},
+    {"name":"Fetch First 5 Mobiles","request":{"method":"GET","url":"http://localhost:5000/api/mobiles?limit=5"}},
+    {"name":"Search iPhone","request":{"method":"GET","url":"http://localhost:5000/api/mobiles?search=iphone"}},
+    {"name":"Filter Apple Mobiles","request":{"method":"GET","url":"http://localhost:5000/api/mobiles?company=Apple"}},
+    {"name":"Filter by India Price Range","request":{"method":"GET","url":"http://localhost:5000/api/mobiles?minIndiaPrice=50000&maxIndiaPrice=100000&sort=priceIndiaAsc"}},
+    {"name":"Fetch Mobile by ID","request":{"method":"GET","url":"http://localhost:5000/api/mobiles/1"}},
+    {"name":"Companies","request":{"method":"GET","url":"http://localhost:5000/api/companies"}},
+    {"name":"Stats","request":{"method":"GET","url":"http://localhost:5000/api/stats"}}
+  ]
+}

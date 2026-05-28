@@ -1,0 +1,13 @@
+{
+  "name": "mobile-dataset-api",
+  "version": "1.0.0",
+  "description": "Node.js API server for fetching Mobile Dataset 2025 in Postman",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["nodejs", "api", "postman", "dataset", "mobile"],
+  "author": "SATYAM",
+  "license": "MIT"
+}
